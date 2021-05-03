@@ -2,5 +2,23 @@
 	"FileVersion": 3,
 	"EngineAssociation": "4.26",
 	"Category": "",
-	"Description": ""
+	"Description": "",
+	"Plugins": [
+		{
+			"Name": "DatasmithImporter",
+			"Enabled": true
+		},
+		{
+			"Name": "DatasmithRuntime",
+			"Enabled": true
+		},
+		{
+			"Name": "TwinmotionToUnrealContent",
+			"Enabled": true,
+			"SupportedTargetPlatforms": [
+				"Win64",
+				"Mac"
+			]
+		}
+	]
 }
